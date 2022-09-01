@@ -1,0 +1,329 @@
+body {
+    background: #bae7f8;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+}
+
+/* *****************************************inicio parte cabecalho****************************************** */
+.logo { 
+    color: #445466;
+    font-size: 2.3em;
+    margin: 0;
+    padding: 20px;
+}
+
+#cabecalho span {
+    color: #0371bb;
+}
+
+#cabecalho div {
+    margin: 0 34%;
+}
+
+#cabecalho {
+    text-align: center;
+    float: left;
+    width: 100%;
+    background: #ffffff;
+}
+
+#menu ul {
+    width: 423.4px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 50px;
+    float: left;
+}
+
+#menu ul li{   
+    float: left;
+    
+}
+
+#menu ul a {
+    text-decoration: none;
+    padding: 0 2em;
+    color: #000000;
+    font-size: 1.1em;
+}
+
+#menu ul a:hover {
+    background: #f1f1f1;
+    margin: 0 1.1em;
+    padding: 16px;
+}
+
+#menu .marcador a {
+    background: #f1f1f1;
+    margin: 0 1.1em;
+    padding: 16px;
+}
+
+ /* ********************************************login*******************************************  */
+
+ #corpo {
+    float: left;
+ }
+
+ #convite {
+    margin-top: 5%;
+    margin-left: 70%;
+    margin-bottom: -0.5%;
+ }
+
+ #mulher{
+    width: 550px;
+ }
+
+ #login {
+    color: #445466;
+    text-align: center;
+    padding: 20px;
+    margin: 0% 65%;
+    clear: both;
+    background: rgb(255, 255, 255);
+    width: 550px;
+ }
+
+ #login h3{
+    font-size: 1.5em
+ }
+
+ #login input {
+    background: #f8f8f8;
+    border: 2px solid #dfdfdf;
+    width: 130px;
+    height: 25px;
+ }
+
+ #login a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #0371bb;
+ }
+
+ #entrar {
+    border: none;
+    color: #fff;
+    background: #0371bb !important;
+    padding-top: 10px;
+    padding-bottom: 25px;
+ }
+
+ /* ************************************Cursos********************************************** */
+
+ #grade-cursos {
+    clear: both;
+    padding-top: 50px;
+    margin: 0 11%;
+    height: 600px; 
+ }
+
+ #grade-cursos h2 {
+    font-size: 2em;
+    color:#024877;
+ }
+ .cursos {
+    
+    border: 2px solid #445466;
+    width: 450px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+ }
+
+ .imagem {
+    width: 120px;
+    padding-right: 20px;
+    float: left;
+ }
+
+ .curso h2 {
+    font-size: 1.8em;
+ }
+
+ .curso h2 a {
+    text-decoration: none;
+    color: #024877;
+ }
+
+ .curso p {
+    font-size: 1.1em;
+ }
+
+ /* ****************************************** rodape *********************************************** */
+ #rodape {
+    clear: both;
+    background: #052542;
+    height: 350px;
+    color: #fff;
+ }
+
+.alinharCentro {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
+
+#telefones {
+    padding-left: 10%;
+    float: left;
+}
+
+#wpp {
+    width: 30px;
+    padding-left: 250px;
+    padding-right: 15px;
+    float: left;
+}
+
+/* ******************************************Sobre ****************************************** */
+
+#sobre {
+    height: 800px;
+}
+
+#sobre h2 {
+   color: #052542;
+}
+
+#sobre p {
+    font-weight: bold;
+    color: #052542;
+}
+
+#imgSobre {
+    padding: 30px;
+    width: 100px;
+}
+
+#conteudo {
+    text-align: justify;
+    width: 800px;
+    padding-left: 30px;
+}
+
+/* *******************************************************professores********************************************** */
+
+#professores-ficha {
+    clear: both;
+    padding-top: 50px;
+    margin: 0 11%;
+    height: 600px; 
+ }
+
+ #professores-ficha h2 {
+    font-size: 2em;
+    color:#024877;
+ }
+ .contorno {
+    
+    border: 2px solid #445466;
+    width: 450px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+ }
+
+ .imagem {
+    width: 120px;
+    padding-right: 20px;
+    float: left;
+ }
+
+ .prof-especificacoes h2 {
+    font-size: 1.8em;
+ }
+
+ .prof-especificacoes h2 a {
+    text-decoration: none;
+    color: #024877;
+ }
+
+ .prof-especificacoes p {
+    font-size: 1.1em;
+ }
+ /* *************************************** Cadastro **************************************************** */
+
+#menuCadastro ul { 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+#menuCadastro ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #fff;
+}
+
+#menuCadastro a:hover {
+    background-position: right bottom;
+    background-color: #11b4ff;
+    color: #fff;
+}
+
+#menuCadastro .marcador a {
+    background-position: right bottom;
+    background-color: #11b4ff;
+    color: #fff;
+}
+
+#formulario h4 {
+    float: left;
+}
+
+.perguntas {
+    width: 160px;
+    padding-left: 25px;
+    float: left;
+}
+
+#formulario {
+    background: #fff;
+    width: 1000px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+
+/* Checkbox */
+
+#interesse {
+    clear: both;
+    padding: 20px;
+}
+
+#botaoCadastrar {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    color: #fff;
+    background: #0371bb;
+}
+
+ /***************************************** Cores******************************************************** */ 
+
+ .branco {
+    color:  #fff;
+ }
+
+ .azul-claro {
+    color: #11b4ff;
+ }
