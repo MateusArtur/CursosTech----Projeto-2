@@ -21,22 +21,25 @@
             </div>
             <!-- Formulário para cadastro-->
             <div id="formulario">
-                <div class="perguntas">
-                    <h4>Nome completo</h4>
-                    <input type="text" name="nome">
-                </div>
-                <div class="perguntas">
-                    <h4>Data de Nascimento</h4>
-                    <input type="text" name="email">
-                </div>
-                <div class="perguntas">
-                    <h4>E-mail</h4>
-                    <input type="text" name="contato">
-                </div>
-                <div class="perguntas">
-                    <h4>Telefone de contato</h4>
-                    <input type="password" name="senha">
-                </div>
+                <fieldset>
+                    <div class="perguntas">
+                        <label for="nome">Nome completo</label>
+                            <input type="text" name="nome" id="nome" placeholder="Seu nome completo">
+                    </div>
+                    <div class="perguntas">
+                        <label for="data">Data de nascimento</label>
+                            <input type="text" name="nome" id="data" placeholder="Sua data de nascimento">
+                    </div>
+                    <div class="perguntas">
+                        <label for="data">E-mail</label>
+                            <input type="text" name="nome" id="email" placeholder="Seu e-mail">
+                    </div>
+                    <div class="perguntas">
+                        <label for="data">Telefone celular</label>
+                            <input type="text" name="nome" id="numero" placeholder="Seu celular">
+                    </div>
+                </fieldset>
+               
                 <div id="interesse">
                     <div>
                         <input type="checkbox" name="inetresse" value="Python"> - Curso de python + Django
